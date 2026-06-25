@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>RoosterJs API Reference</title>
+	<meta name="description" content="Documentation for RoosterJs API Reference">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<script async src="assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">RoosterJs API Reference</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<h1>RoosterJs API Reference</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<p>Welcome to RoosterJs API References!</p>
+				<a href="#upgrade-from-roosterjs-8" id="upgrade-from-roosterjs-8" style="color: inherit; text-decoration: none;">
+					<h2>Upgrade from RoosterJs 8.*</h2>
+				</a>
+				<p>Please see <a href="https://github.com/microsoft/roosterjs/wiki/RoosterJs-9">here</a>.</p>
+				<a href="#content" id="content" style="color: inherit; text-decoration: none;">
+					<h2>Content</h2>
+				</a>
+				<p>Rooster contains 6 basic packages.</p>
+				<ol>
+					<li><p><a href="modules/roosterjs.html">roosterjs</a>:
+							A facade of all Rooster code for those who want a quick start. Use the
+							<code>createEditor()</code> function in roosterjs to create an editor with default
+						configurations.</p>
+					</li>
+					<li><p><a href="modules/roosterjs_content_model_core.html">roosterjs-content-model-core</a>:
+							Defines the core editor and plugin infrastructure. Use <code>roosterjs-content-model-core</code>
+						instead of <code>roosterjs</code> to build and customize your own editor.</p>
+					</li>
+					<li><p><a href="modules/roosterjs_content_model_api.html">roosterjs-content-model-api</a>:
+							Defines APIs for editor operations. Use these APIs to modify content and
+						formatting in the editor you built using <code>roosterjs-content-model-core</code>.</p>
+					</li>
+					<li><p><a href="modules/roosterjs_content_model_dom.html">roosterjs-content-model-dom</a>:
+						Defines APIs for Content Model and DOM operations. This package do conversion between DOM tree and roosterjs Content Model.</p>
+					</li>
+					<li><p><a href="modules/roosterjs_content_model_plugins.html">roosterjs-content-model-plugins</a>:
+						Defines basic plugins for common features.</p>
+					</li>
+					<li><p><a href="modules/roosterjs_content_model_types.html">roosterjs-content-model-types</a>:
+						Defines public interfaces and enumerations, including Content Model types, API parameters and other types.</p>
+					</li>
+				</ol>
+				<p>There are also some extension packages to provide additional functionalities.</p>
+				<ol>
+					<li><p><a href="modules/roosterjs_color_utils.html">roosterjs-color-utils</a>:
+						Provide color transformation utility to make editor work under dark mode.</p>
+					</li>
+					<li><p><a href="https://microsoft.github.io/roosterjs/docs/modules/roosterjs_content_model_types.html">roosterjs-content-model-markdown</a>:
+						Defines public APIs to enable conversions between Markdown and ContentModel</p>
+					</li>
+				</ol>
+				<p>To be compatible with old (8.*) versions, you can use <code>EditorAdapter</code> class from the following package which can act as a 8.* Editor:</p>
+				<ol>
+					<li><a href="modules/roosterjs_editor_adapter.html">roosterjs-editor-adapter</a>:
+					Provide a adapter class <code>EditorAdapter</code> to work with Editor (9.*) and legacy plugins (via <a href="interfaces/roosterjs_editor_adapter.editoradapteroptions.html#legacyplugins">EditorAdapterOptions.legacyPlugins</a>)</li>
+				</ol>
+				<p>To view references document for legacy (v8.*) packages, please download the doc <a href="../legacyDemo/roosterjs_v8_doc.zip">here</a></p>
+				<a href="#see-also" id="see-also" style="color: inherit; text-decoration: none;">
+					<h2>See also</h2>
+				</a>
+				<p><a href="../index.html">RoosterJs Demo Site</a>.</p>
+				<p><a href="https://github.com/Microsoft/roosterjs/wiki">RoosterJs wiki</a></p>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="modules.html">Modules</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs.html">roosterjs</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_color_utils.html">roosterjs-<wbr>color-<wbr>utils</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_content_model_api.html">roosterjs-<wbr>content-<wbr>model-<wbr>api</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_content_model_core.html">roosterjs-<wbr>content-<wbr>model-<wbr>core</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_content_model_dom.html">roosterjs-<wbr>content-<wbr>model-<wbr>dom</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_content_model_markdown.html">roosterjs-<wbr>content-<wbr>model-<wbr>markdown</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_content_model_plugins.html">roosterjs-<wbr>content-<wbr>model-<wbr>plugins</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_content_model_types.html">roosterjs-<wbr>content-<wbr>model-<wbr>types</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_editor_adapter.html">roosterjs-<wbr>editor-<wbr>adapter</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/roosterjs_react.html">roosterjs-<wbr>react</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
